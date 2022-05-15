@@ -14,3 +14,11 @@ h1{
 h6{
     font-style: oblique;
 }
+
+#button{
+    font-size: medium;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #03c03c;
+    color: black;
+}
