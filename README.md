@@ -31,12 +31,19 @@ This project is created with the following:
 > visual studio code
 
 Version: 1.67.1
+
 Commit: da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+
 Date: 2022-05-06T12:39:22.915Z
+
 Electron: 17.4.1
+
 Chromium: 98.0.4758.141
+
 Node.js: 16.13.0
+
 V8: 9.8.177.13-electron.0
+
 OS: Linux x64 5.13.0-41-generic
 
 > code runner
