@@ -6,5 +6,9 @@ function check() {
     var qn4=document.quiz.qn4.value;
     var qn5=document.quiz.qn5.value;
     if (qn1=="variables") {b++}
+    if (qn1=="variables") {b++}
+    if (qn1=="variables") {b++}
+    if (qn1=="variables") {b++}
+    if (qn1=="variables") {b++}
     document.write(b)
 }
