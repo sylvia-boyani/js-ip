@@ -21,6 +21,6 @@ function check() {
     if(b<=3){
         results.textContent=`Your score is ${b}. It is not good, do more research`
     } else{
-        results.textContent=`You've scored 5/5. Excellent!`
+        results.textContent=`You've scored 5/5. Excellent! Keep it up!`
     }
 }
