@@ -1,11 +1,6 @@
 var userName = document.querySelector("#userName");
 var hdText = document.querySelector("#hdText")
 
-function greeting(){
-    hdText.innerHTML =""
-    hdText.innerHTML ="hello " +userName.value + ", welcome to comp quiz";
-}
-
 function check() {
     var b=0;
     var qn1=document.quiz.qn1.value;
