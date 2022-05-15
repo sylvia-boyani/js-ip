@@ -4,10 +4,11 @@
     margin: 10px;
     padding: 0px;
     font-weight: bolder;
+    
 }
 
 h1{
-    text-align: center;
+    text-align: left;
     font-style: italic;
 }
 
@@ -22,3 +23,8 @@ h6{
     background-color: #03c03c;
     color: black;
 }
+
+#intro{
+    text-align:center; color: yellowgreen;
+}
+
