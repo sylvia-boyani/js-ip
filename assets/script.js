@@ -1,5 +1,10 @@
+function greeting(){
+    headerText.innerHTML = ""
+    headerText.innerHTML = "Hello "+ userName.value +", welcome to comp quiz"
+}
+
 var userName = document.querySelector("#userName");
-var hdText = document.querySelector("#hdText")
+var headerText = document.querySelector("#headerText")
 
 function check() {
     var b=0;
