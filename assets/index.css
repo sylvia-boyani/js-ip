@@ -1,0 +1,14 @@
+*{
+    background-color: #404040;
+    color: #03c03c;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+}
+
+h6{
+    font-style: oblique;
+}
