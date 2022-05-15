@@ -6,9 +6,10 @@ function check() {
     var qn4=document.quiz.qn4.value;
     var qn5=document.quiz.qn5.value;
     if (qn1=="variables") {b++}
-    if (qn2=="hypertext markup language") {a++}
-    if (qn3=="capitalizing the first letter of the second or third word") {d++}
-    if (qn4=="1") {a++}
-    if (qn5=="objects") {d++}
+    if (qn2=="hypertext markup language") {b++}
+    if (qn3=="capitalizing the first letter of the second or third word") {b++}
+    if (qn4=="1") {b++}
+    if (qn5=="objects") {b++}
+
     document.write(b)
 }
