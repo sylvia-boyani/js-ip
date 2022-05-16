@@ -1,4 +1,5 @@
 function greeting(){
+    headerText.innerHTML = ""
     headerText.innerHTML = "Hello "+ userName.value +", welcome to comp quiz"
 }
 
@@ -24,11 +25,10 @@ function check() {
     if (qn5=="objects") {b++}
 
     quiz.style.display="none"
-    //results.textContent=`${b}`;//
 
     if(b<=3){
-        results.textContent=`Your score is ${b}. It is not good, do more research`
+        results.textContent=`Your score is ${b/5*100}%. It is not good, do more research`
     } else{
-        results.textContent=`You've scored 5/5. Excellent! Keep it up!`
+        results.textContent=`You've scored ${b/5*100}%. Excellent! Keep it up!`
     }
 }
